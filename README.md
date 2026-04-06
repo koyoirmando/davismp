@@ -28,7 +28,7 @@ Dashboard dibangun menggunakan gaya desain **Neo-Brutalism** — ditandai dengan
 
 | # | Tipe Visualisasi | Deskripsi |
 |---|---|---|
-| 📈 | **Area Chart (Tren)** | Laju IPK rata-rata dari Semester 1 ke 8. Menampilkan penurunan IPK di titik transisi MK Major (Sem 4–5) dan pemulihan natural (Sem 6–8). Dilengkapi **ReferenceLine** batas IPR 2.30. |
+| 📈 | **Line/Area Chart (Tren)** | Laju IPK rata-rata dari Semester 1 ke 8. Menampilkan penurunan IPK di titik transisi MK Major (Sem 4–5) dan pemulihan natural (Sem 6–8). Dilengkapi **ReferenceLine** batas IPR 2.30. |
 | 📊 | **Bar Chart (Perbandingan)** | Distribusi tingkat absensi per hari kerja. Mengungkap fenomena "Long Weekend" di hari Jumat (342 sesi) dan Senin (287 sesi). |
 | 🥧 | **Pie Chart (Distribusi)** | Proporsi mahasiswa per rumpun fakultas berdasarkan data PDDIKTI. Dapat di-**flip** untuk melihat angka rinci per fakultas. |
 | 📋 | **Data Table** | Academic Watchlist berisi 5 mahasiswa prioritas tertinggi dengan profil lengkap: IPK, absen MK terburuk, status IPR, dan level risiko DO. |
@@ -76,7 +76,7 @@ Dari 517 mahasiswa IPR, **62 orang** telah berstatus IPR selama 3 semester bertu
 
 ```bash
 # Clone repository
-git clone <repository-url>
+git clone https://github.com/koyoirmando/davismp.git
 
 # Install dependencies
 npm install
